@@ -1,0 +1,20 @@
+body {
+    background-color: white;
+}
+
+.mapdiv {
+    width: 70%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.mapdiv path {
+    fill: rgb(151, 155, 161);
+    stroke: rgb(102, 97, 102);
+    stroke-width: 3px;
+    transition: fill 0.1s;
+}
+
+.mapdiv :hover {
+    fill: rgb(71, 70, 82);
+}
